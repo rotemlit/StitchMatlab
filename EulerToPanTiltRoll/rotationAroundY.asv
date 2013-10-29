@@ -1,0 +1,10 @@
+function res = rotationAroundY(ang)
+res = eye(3);
+c = cos(ang);
+s = sin(ang);
+res(1,1) = cos(ang);
+res(3,3) = cos(ang);
+res(1,3) = sin(ang);
+res(3,1) = -sin(ang);
+
+res = [c 0 s

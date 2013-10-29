@@ -1,0 +1,9 @@
+function params = GetParamsV1()
+params.K                    = IntrinsicMatIphone4S();
+params.omegaDriftBeta       = 0.1;
+params.thetaLPF_Beta        = 20;
+params.phiLPF_Beta          = 20;
+params.blendZone            = 10;
+params.maxDiffForConcensus  = 8;
+params.minCorr2DThreshold   = 0.7;
+params.centralStripeRatio   = 0.05;

@@ -1,0 +1,16 @@
+function params = GenerateParams()
+params.NumSubWindowsPerAxis = 3;
+params.NumPointsPerSubWindow = 150;
+params.KeyPointsMinThrFactor = 0.01;
+params.KeyPointsThrFactor = 0.001;
+params.MaxShiftLimit = false;
+params.MaxShiftRefPercentile = 0.1;
+params.MaxPointsShiftFactor = 1.2;
+params.RANSAC_MaxIters = 500;
+params.RANSAC_NumIters = 100;
+params.RANSAC_Size0 = 4;
+params.RANSAC_GoodRatio = 0.3;
+params.RANSAC_StopRatio = 0.95;
+params.RANSAC_MaxValidPointsDist1 = 10;
+params.RANSAC_MaxValidPointsDist2 = 5;
+params.myeps = 0.01;
